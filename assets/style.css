@@ -11,5 +11,31 @@
 
 
 
+/****** header ******/
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.726);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.upgrade{
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px 100px;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+}
+
+/****** main ******/
+
 
 /* media queries */
