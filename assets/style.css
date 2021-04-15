@@ -1,6 +1,8 @@
 /* debug */
 .dbg{
     border: 1px solid red;
+    background-color:yellowgreen;
+    height: 200px;
     padding: 10px;
 }
 
