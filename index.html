@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- style -->
     <link rel="stylesheet" href="./assets/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/20208b8c01.js"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
     <title>SpotifyWeb</title>
 </head>
 <body>
@@ -23,16 +30,61 @@
 
     <main>
         <div class="row">
-            <div class="dbg aside col-lg-3"></div>
+            <!-- black aside menu -->
+            <div class="aside col-lg-3">
+                <div class="opt">
+                    <img src="./assets/img/home.svg" alt="home icon" class="icon">Home
+                </div>
+                <div class="opt">
+                    <img src="./assets/img/search.svg" alt="lens icon" class="icon">Cerca
+                </div>
+                <div class="opt">
+                    <img src="./assets/img/libreria.svg" alt="library icon" class="icon">La tua libreria
+                </div>
+                <div class="playlist">
+                    <p class="title">PLAYLIST</p>
+                </div>
+                <div class="new">
+                    <div class="plus">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <p class="title_big">Crea Playlist</p>
+                </div>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>                
+            </div>
+
+            <!-- dashboard -->
             <div class="dbg dash col-lg-9"></div>
         </div>
        
     </main>
     
     <footer>
-        <div class="row">
-            <div class="dbg player col-lg-12"></div>
-        </div>
+       <div class="row">
+           <div class="end col-lg-2">
+               <div id="leftone">
+                   <img src="./assets/img/sinister.jpeg" alt="sinister song cover image">
+                   <div class="left_t">
+                       <p class="small">Sinister</p>
+                       <p class="smaller">Brano Nome</p>
+                   </div>
+               </div>
+               <div id="rightone">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-folder"></i>
+               </div>
+           </div>
+           <div class="end col-lg-8">
+            
+           </div>
+           <div class="end col-lg-2"></div>
+       </div>
     </footer>
 
 </body>
