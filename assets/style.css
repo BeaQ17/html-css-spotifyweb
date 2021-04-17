@@ -204,6 +204,17 @@ footer{
     border-radius: 100px 100px;
 }
 
+/* right stuff */
+.icon_stuff{
+    margin: 10px;
+}
+
+.bar_v{
+    height: 5px;
+    width: 100%;
+    background-color: #5c5c5c;
+    border-radius: 100px 100px;
+}
 
 
 
