@@ -10,7 +10,9 @@
 /* commons */
 body{
     font-family: 'Raleway', sans-serif;
+    min-width: 1170px;
 }
+
 
 .opacity{
     filter: opacity(50%);
@@ -71,12 +73,22 @@ header{
 }
 
 /****** main ******/
+main{
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
 /* black aside menu*/
 .aside{
     background-color: black;
     color: white;
     padding-top: 100px;
     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .opt{
@@ -120,17 +132,61 @@ header{
     font-size: 20px;
 }
 
+.p_list{
+    height: 200px;
+    overflow: auto;
+}
+
+/* account */
+.account{
+    display: flex;
+    align-items: center;
+}
+
+.j_doe{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.profile{
+    width: 20px;
+    margin: auto;
+}
+
+.round{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    display: inline-flex;
+    margin-right: 15px;
+}
+
+.name{
+    display: inline-flex;
+}
+
+#install{
+    display: inline-flex;
+}
+
+hr{
+    background-color: white;
+    margin: 10px 0px 0px 0px;
+}
+
 /* dashboard */
 /* nav menu dash*/
 .dash{
     color: white;
     background-color: #141922;
+    overflow: auto;
+    padding-top: 100px;
 }
 
 .nav_list{
     display: inline-flex;
     justify-content: center;
-    margin-top: 100px;
 }
 
 .nav_opt{
@@ -162,7 +218,7 @@ header{
 footer{
     background-color: #282828;
     height: 100px;
-    padding-left: 10px;
+    padding: 10px;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -274,9 +330,29 @@ footer{
 
 
 
-/* media queries
-@media screen and (min-width:992px){
-    body{
-        min-width: 1170px;
+/* media queries */
+@media screen and (min-width:992px){ /*large*/ /* and (max-width: 1199.98px) { */
+
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){ /* medium */
+    .nav_list{
+        display: flex;
+        flex-wrap: wrap;
     }
-}  */
+
+    .recent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* @media screen (min-width:576px) and (max-width:767.98px){ 
+
+}
+
+
+@media screen (max-width: 575.98px) {  xsmall 
+
+} */
