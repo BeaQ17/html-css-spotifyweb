@@ -1,5 +1,5 @@
 // Doc writeline
-document.writeln('Sasageyo');
+document.writeln('Shinzou wo Sasageyo');
 
 //alert
 alert('messaggio di allerta');

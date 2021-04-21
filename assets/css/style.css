@@ -10,7 +10,7 @@
 /* commons */
 body{
     font-family: 'Raleway', sans-serif;
-    min-width: 1170px;
+    /*min-width: 1170px;*/
 }
 
 
@@ -74,9 +74,13 @@ header{
 
 /****** main ******/
 main{
-    height: 100vh;
+    height: 100%;
     overflow: auto;
     padding-bottom: 100px;
+}
+
+.height{
+    height: 100%;
 }
 
 /* black aside menu*/
@@ -335,9 +339,10 @@ footer{
 
 }
 
-@media screen and (min-width:768px) and (max-width:991.98px){ /* medium */
+/* medium */
+@media screen and (min-width:768px) and (max-width:991.98px){ 
     .nav_list{
-        display: flex;
+        display: inline-flex;
         flex-wrap: wrap;
     }
 
@@ -347,12 +352,37 @@ footer{
     }
 }
 
+/* small */
+@media screen and (min-width:576px) and (max-width:767.98px){  
 
-/* @media screen (min-width:576px) and (max-width:767.98px){ 
+    .sin, .bra, .progress, .name, #install, .playlist, .new, .p_list{
+        display: none;
+    }
+
+    #rightone, #leftone{
+        width: 50%;
+        text-align:left;
+    }
+
 
 }
 
+/* xsmall */
+@media screen and (max-width: 575.98px) {  
+    .desc, .sin, .bra, .progress, .rs, .name, #install, .playlist, .new, .p_list{
+        display: none;
+    }
 
-@media screen (max-width: 575.98px) {  xsmall 
+    #rightone, #leftone{
+        width: 50%;
+        text-align:left;
+    }
 
-} */
+    #rightone, .end{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+} 
